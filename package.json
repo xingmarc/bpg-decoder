@@ -1,0 +1,22 @@
+{
+  "name": "bpg-decoder",
+  "version": "0.0.1",
+  "description": "A BPG decoder for the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingmarc/bpg-decoder.git"
+  },
+  "keywords": [
+    "BPG"
+  ],
+  "author": "Yichi Xing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingmarc/bpg-decoder/issues"
+  },
+  "homepage": "https://github.com/xingmarc/bpg-decoder#readme"
+}
