@@ -31,8 +31,6 @@ module.exports = (function() {
         }) : (function(x) {})
     }
 
-    Module["load"] = importScripts
-
     function globalEval(x) {
         eval.call(null, x)
     }
