@@ -1,7 +1,7 @@
 # bpg-decoder
+> This repo is originated from https://github.com/mirrorer/libbpg
 
-
-This repo is originated from https://github.com/mirrorer/libbpg
+Use BPG format today to make your website faster!
 
 ## usage:
 
