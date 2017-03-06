@@ -3,6 +3,9 @@
 
 Use BPG format today to make your website faster!
 
+A React component for BPG using this repo: https://github.com/xuezhma/react-bpg
+
+
 ## usage:
 
 `npm install bpg-decoder`
