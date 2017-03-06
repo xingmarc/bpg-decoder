@@ -2,7 +2,7 @@ module.exports = (function() {
     var Module = {};
     // var Module;
     // if (!Module) Module = (typeof Module !== "undefined" ? Module : null) || {};
-    var moduleOverrdes = {};
+    var moduleOverrides = {};
     for (var key in Module) {
         if (Module.hasOwnProperty(key)) {
             moduleOverrides[key] = Module[key]
