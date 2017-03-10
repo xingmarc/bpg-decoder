@@ -23,7 +23,7 @@ module.exports = (function() {
             console.log(x)
         };
         if (!Module["printErr"]) Module["printErr"] = function printErr(x) {
-            console.log(x)
+            console.error(x)
         }
     } else {
         var TRY_USE_DUMP = false;
@@ -15152,9 +15152,6 @@ module.exports = (function() {
             if (ABORT) return;
             ensureInitRuntime();
             preMain();
-
-            Module.printErr("pre-main prep time: " + (Date.now() - preloadStartTime) + " ms")
-
             postRun()
         }
         if (Module["setStatus"]) {
