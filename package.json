@@ -1,6 +1,6 @@
 {
   "name": "bpg-decoder",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A BPG decoder for the web.",
   "main": "index.js",
   "scripts": {
