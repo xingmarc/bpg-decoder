@@ -2,7 +2,7 @@
   "name": "bpg-decoder",
   "version": "0.0.6",
   "description": "A BPG decoder for the web.",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build:bpgdec": "babel bpgdec.js -o ./dist/bpgdec.js",
     "build:bpgdec8": "babel bpgdec8.js -o ./dist/bpgdec8.js",

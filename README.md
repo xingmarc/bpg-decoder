@@ -18,3 +18,6 @@ img = new BPGDecoder(ctx);
 img.load("your-bpg-picture.bpg");
 ```
 
+
+## known issue
+see issues.
