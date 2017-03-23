@@ -20626,7 +20626,7 @@ module.exports = (function() {
             img = this.bpg_decoder_open();
             if (this.bpg_decoder_decode(img, array, array.length) < 0) {
                 console.log("could not decode image");
-                return
+                throw new Error("could not decode image");
             }
             img_info_buf = this.malloc(5 * 4);
             this.bpg_decoder_get_info(img, img_info_buf);
